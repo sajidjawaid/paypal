@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.flex {
+    width: 78%;
+    display: flex;
+    margin: auto;
+    padding-top: 120px;
+    
+    
+  }
+  .card {
+    width: 60%;
+    margin-right: 70px;
+    border: none;
+    
+  }
+  .card-body {
+    font-size: 15px;
+    color: black;
+  }
+  .card-title {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color:black;}
+
+    .card-body h4{
+        color: blue;
+    }
+    .main{
+        width: 100%;
+        height: 100%;
+    }
+    .box1{
+        width: 100%;
+        height: 100%;
+        background-color: #142C8E;
+        background-image: url(./asset/background-swirls.png);
+        background-position: 50% 90%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+     h1{
+        width: 40%;
+        color: white;
+        font-size: 5rem;
+        font-weight: 500;
+        padding-top: 5%;
+        margin-left: 10%;
+    
+    }
+    a{
+        font-size: 1.3rem;
+        margin-left: 10%;
+        text-decoration: none;
+    }
+    
+    .content-box{
+        width: 80%;
+        height: 50%;
+        margin-top: 2%;
+        margin-left: 7%;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .para{
+        width: 100%;
+        height: 20%;
+    }
+    .para p{
+        font-size: 1.3rem;
+        color: white;
+        font-weight: 500;
+        padding-left: 4%;
+    }
+    
+    .box2{
+        width: 20%;
+        height: 50%;
+        background-image: url(./asset/qr-code-us-home-hero.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 12%;
+    }
+    
+    .box-line{
+        height: 50%;
+        margin-bottom: 12%;
+        border: 1px solid #5565A9;
+    }
+    .box3{
+        width: 30%;
+        height: 70%;
+        margin-bottom: 12%;
+        margin-left: 4%;
+    }
+    .box3 input{
+        padding: 4% 26% 5% 12%;
+        border-radius: 5px;
+        border: none;
+        margin-top: 2%;
+        margin-left: 1%;
+    }
+    .box3 img{
+        position: absolute;
+        width: 1%;
+        left: 27.5%;
+        bottom: 37.2%;
+    
+    
+    }
+    
+    .box3 button{
+        padding: 5% 10%;
+        background-color: #F9B822;
+        color: black;
+        font-weight: 500;
+        border: none;
+        margin-top: 3%;
+        border-radius: 50px;
+    }
+    .box3 p{
+            color: white;
+            font-weight: 500;
+            padding-top: 5%;
+    }
+    
+    
+     img{
+        position: absolute;
+        bottom: 1%;
+        right: 2%;
+    }
+    .logo-parent img {
+        width: 51px;
+        height: 52px;
+    }
+    
+    .btn-signup {
+        border: 2px solid #003087;
+        background-color: #003087;
+        color: white;
+        border-radius: 25px;
+        padding: 12px 32px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    
+    .btn-signup:hover {
+        background-color: blue;
+        border-color: blue;
+    }
+    
+    .btn-login {
+        border: 2px solid #003087;
+        background-color: white;
+        color: #003087;
+        border-radius: 25px;
+        padding: 12px 32px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    
+    .btn-login:hover {
+        border-color: blue;
+        color: blue;
+    }
+    
+    .header-parent {
+        height: 88px;
+        padding: 20px 32px;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        align-items: center;
+    
+    }
+    
+    .header-parent a {
+        color: #003087;
+    }
+    
+    li a {
+        color: #003087;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    
+    .link {
+        color: #003087;
+        font-weight: bold;
+        font-size: 18px;
+        color: #003087;
+        
+    }
+    
+    .link:hover{
+        border-color: aliceblue;
+       
+    }
